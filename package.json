@@ -1,15 +1,15 @@
 {
-  "name": "vuelidate",
+  "name": "vuelidate-bs",
   "sideEffects": [
     "*.sass",
     "*.scss"
   ],
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Simple, lightweight model-based validation for Vue.js",
   "author": "Paweł Grabarz <pawel.grabarz@monterail.com>",
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "monterail/vuelidate",
+  "repository": "ByScripts/vuelidate",
   "scripts": {
     "dev": "node build/dev-server.js",
     "bundle:web": "rimraf dist && cross-env BUILD=web node build/build-bundle.js",
